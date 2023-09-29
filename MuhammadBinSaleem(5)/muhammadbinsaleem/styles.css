@@ -1,0 +1,81 @@
+body
+{
+    background-image: url('https://img.freepik.com/free-vector/kitchen-interior-witn-wooden-furniture-cartoon_107791-298.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: aqua;
+    padding: 10px;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.todolistmenu
+{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius:5%;
+    background-color: yellow;
+    
+}
+
+
+
+.todolistmenu input,textarea{
+width: 600px;
+padding: 10px;
+font-size: 23px;
+outline: none;
+}
+
+.todolistmenu button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+}
+
+#tasks{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.task
+{
+
+    display: flex;
+    font-size: 24px;
+    width: 50%;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.task button
+{
+    background: transparent;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 23px;
+} 
+
+
+.done
+{
+    content: 'Done';
+}
